@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS heroes (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    person_name TEXT NOT NULL,
+    gender TEXT,
+    skills TEXT NOT NULL,
+    power_score INTEGER NOT NULL DEFAULT 0
+);
